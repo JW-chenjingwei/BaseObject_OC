@@ -1,0 +1,42 @@
+//
+//  PrefixHeader.pch
+//  yanzhi
+//
+//  Created by qiuxiaofeng on 2017/10/16.
+//  Copyright © 2017年 figo. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#ifdef __OBJC__
+
+#import <Masonry.h>
+#import "FGBaseViewController.h"
+#import "FGBaseNavigationController.h"
+#import "FGUtilsMacro.h"
+#import "APPConfig.h"
+#import "APPConst.h"
+#import "UIView+FGNew.h"
+#import "UIView+EdgeLine.h"
+#import <ReactiveObjC/ReactiveObjC.h>
+#import "UIViewController+FGToast.h"
+#import <UIImageView+WebCache.h>
+#import <UIButton+WebCache.h>
+#import "NSString+FGDate.h"
+#import "FGAlertView.h"
+#import <JKCategories.h>
+#import "MBProgressHUD+LMJ.h"
+#import "NSString+HtmlStyle.h"
+#import "FGEmptyView.h"
+#import "NSNumber+FGPrice.h"
+#import "NSString+FGNormalRegex.h"
+
+#import <JKUIKit.h>
+
+#endif
+
+#endif /* PrefixHeader_pch */
